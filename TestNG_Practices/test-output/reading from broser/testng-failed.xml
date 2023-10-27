@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [reading from broser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="reading browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testng.DatadrivenLive">
+        <methods>
+          <include name="datadriven"/>
+        </methods>
+      </class> <!-- testng.DatadrivenLive -->
+    </classes>
+  </test> <!-- reading browser(failed) -->
+</suite> <!-- Failed suite [reading from broser] -->
